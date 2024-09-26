@@ -5,9 +5,10 @@ ipywidgets
 jupyterlab
 matplotlib
 numdifftools
-opencv-python-headless
+opencv-python
 pytest
 pyyaml
 scipy
 torch>=1.10
 tqdm
+numpy==1.23.5

@@ -40,6 +40,7 @@ def project_poly_rz(view_points: Tensor, poly: Tensor,
     return xy
 
 
+
 def project_poly_thetar(view_points: Tensor, poly_theta: Tensor,
                         principal_point: Tensor = None,
                         normed: bool = False) -> Tensor:
