@@ -12,7 +12,7 @@ setup(name='omnicalib',
       install_requires=[
           'autograd',
           'matplotlib',
-          'opencv-python-headless',
+          'opencv-python',
           'pyyaml',
           'scipy',
           'torch>=1.10',
