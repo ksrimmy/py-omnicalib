@@ -40,8 +40,7 @@ def get_view_vectors(
     use_bounding_box = False
     H, W = image_shape
     if fovx is None:
-        assert x1y1 is not None and x2y2 is not None
-        "fovx or (x1x2 and x2y2) must be set."
+        assert x1y1 is not None and x2y2 is not None, "fovx or (x1x2 and x2y2) must be set."
         use_bounding_box = True
 
     if use_bounding_box:
