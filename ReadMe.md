@@ -12,6 +12,10 @@
 ```
 python -m omnicalib.detect --chessboard <rows> <columns> <square-size> --max-dim <max-dim> --threads <threads> <image-folder>
 ```
+e.g.
+```
+python -m omnicalib.detect --chessboard 8 5 0.068 "./img"
+```
 The file `detections.pickle` is written, which contains a **pickled dictionary** with the following format
 
 ```
