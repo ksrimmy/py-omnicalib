@@ -80,3 +80,8 @@ If you would like to reference this work, see the following BibTeX suggestion
   howpublished = {\url{https://github.com/tasptz/py-omnicalib}}
 }
 ```
+
+## Changelog
+```
+2024-12-05  V1.1.0   added GPU support
+```
