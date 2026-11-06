@@ -58,7 +58,7 @@ def main(detections: Dict, degree: int, threshold: float, count: int,
             (H, W),
             spiral_step,
             spiral_end
-        )
+        )   
         with open('calibration.yml', 'w') as f:
             data = {
                 'extrinsics': torch.cat((R, T[..., None]), dim=2).tolist(),
